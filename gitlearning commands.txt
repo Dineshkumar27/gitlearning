@@ -1,0 +1,95 @@
+git clone url
+git status
+git add
+
+staging area is area that the file is ready to commit
+now type 
+git add hungry.py
+git status
+
+git commit -m 'first version of hungry'
+git status
+git log
+git push
+
+change the hungry.txt like eat samosa
+git status  it will show in red color
+
+git add hungry.txt
+now it will how in green color which means it is staging area
+
+git difftool diffference between local changes and previous version it will two windows to see the changes
+
+git commit -m 'added samosa'
+
+add line eat pizza in hungry.txt
+
+git status
+
+git checkout -- hungry.txt
+the above command will undo the changes done
+
+git checkout -- . will undo the uncommited changes
+
+lets undo the commited changes
+
+now add eat pizza then add the file then commit the fike
+
+now to delete the pizza you need to type 
+git log
+copy the commit id and type
+git revert commit id
+the above command will automatically commit the changes done
+
+if you dont want to commit the undo's you have to use -n after the revert
+
+git revert -n commit id
+
+
+git reset --hart commitid (to which you want to go back)
+
+Master is a default branch in git
+
+git branch->display the branches list.
+
+git branch drinks
+
+git branch
+
+git checkout drinks
+
+now add the drinks name inside the hungry.txt 
+git add hungry.txt
+git commit -m 'added drinks'
+
+
+now can't see the changes in master
+
+go to master branch and type git merge drinks
+
+
+git push if error put git pull then type git push
+
+go to master  and push
+if you want to create drinks branch in your repository use git push --set-upstream origin thirsty
+
+HEAD
+______
+
+
+git show head will give the recent command
+ head is reference to most recent commit
+
+git difftool commitid1  commitid2
+
+git HEAD HEAD~2 HEAD~1
+
+LIKE
+HEAD
+HEAD~1
+HEAD~2
+sandeep@reliancesoftsystems.com
+
+
+
+
