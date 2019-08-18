@@ -1,4 +1,4 @@
-apple
+apple is a fruit
 mango
 orange
 jackfruit
