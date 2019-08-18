@@ -4,3 +4,4 @@ orange
 jackfruit
 pepsi
 coke
+thumbs up
