@@ -1,6 +1,6 @@
 apple is a fruit
 mango
-orange
+orange is also a fruit
 jackfruit
 pepsi
 coke
