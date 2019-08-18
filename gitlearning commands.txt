@@ -91,5 +91,14 @@ HEAD~2
 sandeep@reliancesoftsystems.com
 
 
+Go back to your project in the terminal/command line.
+
+In your terminal/command line, type git remote add origin [copied web address]
+
+Example: git remote add origin https://github.com/mindplace/test-repo.git
+
+Push your branch to Github: git push origin master
+
+
 
 
